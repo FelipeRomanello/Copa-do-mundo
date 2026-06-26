@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url('campo.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+    color: white;
+}
+
+/* header visível */
+header{
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* cada fase */
+.container{
+    background-color: rgba(0,0,0,0.6);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 15px;
+}
+/*editando tamanho dos inputs*/
+.resultado {
+    width: 15px;
+}
+
+/* título das fases */
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* jogo */
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: green;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* bandeiras */
+.flag{
+    width: 25px;
+    height: 18px;
+    margin: 0 5px;
+}
+
+/* info de data */
+.info{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* hover */
+.box:hover{
+    background-color: gold;
+    color: black;
+    transform: scale(1.02);
+    transition: 0.3s;
+}
